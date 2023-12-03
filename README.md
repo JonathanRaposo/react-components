@@ -2,7 +2,7 @@
 
 <details>
   <summary>
-   <h2>Learning Goals</h2>
+
   </summary>
 
   <br>
@@ -14,8 +14,6 @@
 
 The purpose of this exercise is to practice the core React concepts such as: creating components, passing data through props, working with state, rendering lists, and working with forms (controlled components).
 
-To see the expected result for each iteration, refer to the solution example: [**React Training - solution**](https://5c6c2a0de07b084ce35373ee--determined-aryabhata-a8a833.netlify.com/).
-
 ## Setup
 
 - Clone this repo
@@ -26,8 +24,7 @@ $ npm install
 $ npm start
 ```
 
-
-  ```
+````
 
 - Create a Pull Request so that your TAs can review your work.
 
@@ -56,23 +53,23 @@ Create and render an `IdCard` component with 6 props:
 
 ```jsx
 <IdCard
-  lastName='Doe'
-  firstName='John'
-  gender='male'
-  height={178}
-  birth={new Date("1992-07-14")}
-  picture="https://randomuser.me/api/portraits/men/44.jpg"
+lastName='Doe'
+firstName='John'
+gender='male'
+height={178}
+birth={new Date("1992-07-14")}
+picture="https://randomuser.me/api/portraits/men/44.jpg"
 />
 
 <IdCard
-  lastName='Delores '
-  firstName='Obrien'
-  gender='female'
-  height={172}
-  birth={new Date("1988-05-11")}
-  picture="https://randomuser.me/api/portraits/women/44.jpg"
+lastName='Delores '
+firstName='Obrien'
+gender='female'
+height={172}
+birth={new Date("1988-05-11")}
+picture="https://randomuser.me/api/portraits/women/44.jpg"
 />
-```
+````
 
 **Expected Output:**
 
