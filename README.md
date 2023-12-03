@@ -5,21 +5,6 @@
    <h2>Learning Goals</h2>
   </summary>
 
-This exercise allows you to practice and apply the concepts and techniques taught in class.
-
-Upon completion of this exercise, you will be able to:
-
-- Create and render components with multiple props.
-- Use props to pass data to components and display the data received through props within the components
-- Use inline styles to modify the appearance of components
-- Use operators `?` and `&&` to conditionally render content
-- Use the `useState` hook to create state variables and add state to React components.
-- Use state variable setter functions to update state and trigger component re-render.
-- Create event handler functions to handle user interactions and browser events.
-- Create controlled components to manage the form inputs.
-- Apply the "Lifting State Up" approach to share the state between components.
-- Pass functions as props from a parent component to a child component.
-
   <br>
   <hr>
 
@@ -33,7 +18,6 @@ To see the expected result for each iteration, refer to the solution example: [*
 
 ## Setup
 
-- Fork this repo
 - Clone this repo
 
 ```shell
@@ -42,14 +26,7 @@ $ npm install
 $ npm start
 ```
 
-## Submission
 
-- Upon completion, run the following commands:
-
-  ```
-  git add .
-  git commit -m "done"
-  git push origin master
   ```
 
 - Create a Pull Request so that your TAs can review your work.
