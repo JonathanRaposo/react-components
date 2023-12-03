@@ -19,7 +19,7 @@ The purpose of this exercise is to practice the core React concepts such as: cre
 - Clone this repo
 
 ```shell
-$ cd lab-react-training
+$ cd react-components
 $ npm install
 $ npm start
 ```
