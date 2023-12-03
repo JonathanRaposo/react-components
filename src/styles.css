@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+ .App h1{
+    margin: 50px auto;
+    text-align: center;
+ }
+/* IdCard style */
+.IdCard{
+    width: 500px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-shadow: 0 3px 5px grey;
+    padding: 10px;
+    
+}
+.IdCard div {
+    padding-left: 10px;
+}
+.IdCard img {
+    width: 176px;
+    height:176px;
+    border-radius: 4px;
+}
+/* end of IdCard style */
+
+/* Greetings style */
+.Greetings {
+    text-align: center;
+    color: red;
+}
+.Greetings p {
+    font-size: 2em;
+}
+
+/* end of greetings style */
+.Random{
+    text-align: center;
+}
+
+/* credit card style */
+#creditCard-container{
+    display:flex;
+    justify-content: space-evenly;
+}
+#creditCard-logo{
+    text-align: end;;
+}
+#creditCard-number{
+    font-size: 1.5em;
+    text-align: center;
+}
+#owner-para{
+    margin:0;
+   
+}
+#expiration-para{
+    margin-bottom:0;
+}
+
+/* Rating style */
+.Rating{
+    width: 300px;
+    margin: 20px auto;
+    text-align: center;
+}
+.Rating p {
+    font-size: 2em;
+}
+
+/* DriverCard style */
+
+.DriverCard {
+    width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    background-color: #4040d9;
+    color: #fff;
+}
+
+.DriverCard h3 {
+    margin-top: 0;
+    margin-bottom:2px;
+}
+.DriverCard div {
+    padding-left: 20px;
+}
+.DriverCard p{
+    margin:0;
+}
+
+/* LikeButton style */
+.LikeButton{
+    text-align: center;
+    margin-top:10px;
+}
+.LikeButton button,
+.Carousel button {
+    min-width: 80px;
+    border: none;
+    border-radius: 10px;
+    padding:6px 8px;
+    margin: 20px;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    color:#fff;
+    transition: .15 ease box-shadow;
+}
+.LikeButton button:hover{
+    box-shadow: 3px 5px 5px #4141ee;
+}
+#buttons{
+    display: flex;
+    justify-content: center;
+}
+
+/* Carousel style */
+.Carousel {
+    width: 300px;
+    height: 250px;
+    padding: 10px;
+    margin: 10px auto;
+    box-shadow: 0 5px 5px grey;
+    border-radius: 10px;
+    text-align: center;
+
+}
+.Carousel button{
+    background-color: purple;
+}
+.Carousel button:hover{
+    box-shadow: 3px 5px 5px #4141ee;
+}
+.Carousel img {
+    display: block; 
+    width: 120px;
+    margin: 20px auto;
+    border-radius: 6px;
+    
+}
+/* NumberStable style */
+.NumbersTable {
+    width: 600px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2em;
+}
+.redCell {
+    width: 100px;
+    height:100px;
+    padding: 6px;
+    text-align: center;
+    color: #000;
+    border: 2px solid #000;
+    background-color: red;
+}
+.whiteCell{
+    width: 100px;
+    height:100px;
+    padding: 6px;
+    text-align: center;
+    color: #000;
+    border: 2px solid #000;
+    
+}
+
+.FaceBookCard {
+    width: 700px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 3px 3px 5px #d3d3d3;
+    margin: 20px auto;
+}
+.FaceBookCard div {
+    width:460px;
+    height:200px;
+    margin-left: 20px;
+    padding-left: 20px;
+    border-radius: 10px;
+}
+.FaceBookCard img {
+    border-radius: 10px;
+    width: 200px;
+    cursor: pointer;
+
+}
+.Button {
+    text-align: center;
+}
+.Button button{
+    margin: auto 4px;
+    min-width: 50px;
+    padding: 4px 8px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.SearchBar{
+    text-align: center;
+}
+.SearchBar input {
+    width: 250px;
+    padding:6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    margin: auto auto 30px 10px;
+    outline: none;
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sort-buttons {
+    text-align: center;
+}
+.sort-buttons button {
+   margin: 30px 10px ;
+   padding: 4px 8px;
+   border: 1px solid #ccc;
+   border-radius: 6px;
+   transition: .15s ease background-color;
+   background-color: '#fff';
+}
+.sort-buttons button:hover {
+    background-color: #86cde5;
+    color: #fff;
+}
