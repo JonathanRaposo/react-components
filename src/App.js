@@ -12,6 +12,8 @@ import Carousel from "./components/Carousel";
 import NumbersTable from "./components/NumbersTable";
 import FaceBook from "./components/FaceBook";
 import profiles from './data/berlin.json';
+import noGlasses from './assets/images/maxence.png';
+import withGlasses from './assets/images/maxence-glasses.png'
 
 
 const App = () => {
@@ -127,7 +129,10 @@ const App = () => {
       </div>
 
       <h1>ClickablePicture Component:</h1>
-      <ClickablePicture />
+      <ClickablePicture
+        img={noGlasses}
+        imClicked={withGlasses}
+      />
 
       <h1>Dice Component:</h1>
       <Dice />

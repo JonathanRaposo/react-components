@@ -1,9 +1,8 @@
-import maxence from '../assets/images/maxence.png';
-import maxenceWithGlasses from '../assets/images/maxence-glasses.png';
+
 import { useState } from 'react';
 
 
-const ClickablePicture = () => {
+const ClickablePicture = ({ img, imClicked }) => {
 
     const [click, setClick] = useState(true);
 
@@ -20,7 +19,7 @@ const ClickablePicture = () => {
     }
     return (
         <div className="ClickablePicture">
-            <img src={click ? maxence : maxenceWithGlasses} onClick={handleClick} alt="maxence" style={imgStyle} />
+            <img src={click ? img : imClicked} onClick={handleClick} alt="maxence" style={imgStyle} />
         </div>
     );
 }
