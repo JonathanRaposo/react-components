@@ -1,12 +1,13 @@
-
+import profiles from '../data/berlin.json';
 import { useState } from 'react';
 
 
 
-const FaceBook = ({ profiles }) => {
+const FaceBook = () => {
     const [selectedCountry, setSelectedCountry] = useState(null);
     const [query, setQuery] = useState('');
     const [sortType, setSortType] = useState('');
+
 
     const handleClick = (country) => {
         setSelectedCountry(country);
@@ -23,18 +24,23 @@ const FaceBook = ({ profiles }) => {
     const handleSearch = (e) => {
         setQuery(e.target.value)
     }
+
+
     const getFilteredProfiles = (query, arr) => {
-        if (!query) {
-            return arr;
-        }
-        return arr.filter((profile) =>
+
+        const filteredProfiles = arr.filter((profile) => (
             profile.firstName.toLowerCase().includes(query.toLowerCase()) ||
             profile.lastName.toLowerCase().includes(query.toLowerCase()) ||
             profile.country.toLowerCase().includes(query.toLowerCase())
-
         )
+        )
+        if (!filteredProfiles.length) {
+            return arr;
+        }
+        return filteredProfiles
     }
     let filteredProfiles = getFilteredProfiles(query, profiles);
+
 
 
 
@@ -80,6 +86,7 @@ const FaceBook = ({ profiles }) => {
                 <button onClick={() => handleSort('country')}>Sort by country</button>
 
             </div>
+
 
             {filteredProfiles.map((profile, index) => {
                 return (

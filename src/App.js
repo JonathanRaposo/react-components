@@ -1,3 +1,5 @@
+import noGlasses from './assets/images/maxence.png';
+import withGlasses from './assets/images/maxence-glasses.png'
 import IdCard from "./components/IdCard";
 import Greetings from './components/Greetings';
 import Random from './components/Random';
@@ -11,9 +13,8 @@ import Dice from "./components/Dice";
 import Carousel from "./components/Carousel";
 import NumbersTable from "./components/NumbersTable";
 import FaceBook from "./components/FaceBook";
-import profiles from './data/berlin.json';
-import noGlasses from './assets/images/maxence.png';
-import withGlasses from './assets/images/maxence-glasses.png'
+import SignupPage from './components/SignupPage';
+
 
 
 const App = () => {
@@ -152,9 +153,9 @@ const App = () => {
       <NumbersTable limit={12} />
 
       <h1>FaceBook Component:</h1>
-      <FaceBook profiles={profiles} />
-
-
+      <FaceBook />
+      <h1>SignupPage Component</h1>
+      <SignupPage />
 
 
 
