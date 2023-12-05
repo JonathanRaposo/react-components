@@ -250,6 +250,7 @@ body{
 }
 form label{
    display: block;
+   margin-top:10px;
 }
 form input{
     min-width: 300px;
@@ -266,20 +267,46 @@ form select {
     min-width: 318px;
     margin-top: 8px;
     margin-bottom: 30px;
-    padding: 12px;
+    padding: 7px;
     border-radius: 6px;
     border: 2px solid #ccc;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
     outline: none;
 
 }
 
-#signup-btn {
+form button {
+  min-width: 80px;
+  border:none;
   padding: 8px 10px;
   border-radius:6px;
   background-color: #4875ff;
+  font-size:1em;
+  font-family: 'Poppins', sans-serif;
   color: #fff;
   transition: .15s ease background-color;
 }
-#signup-btn:hover{
+form button:hover{
     background-color: #0039e5;
+}
+.display-messages{
+    width: 700px;
+    margin: 20px auto;
+    padding-left: 350px;
+}
+form #email {
+    margin-bottom: 0
+}
+#green-para {
+    color: green;
+    margin-top: 0;
+   
+}
+form #password {
+    margin-bottom: 0
+}
+#red-para{
+    color: red;
+    margin-top:0
 }
